@@ -18,10 +18,7 @@ public class ArraySort {
         System.out.println(result2);
         System.out.println(result3);
         System.out.println(result4);
-
-
-        ReadStudentDBFile.readLineFromCsv("../resources/students.csv");
-
-
-    }
+        //path to csv file
+        ReadStudentDBFile.readLineFromCsv("src/main/resources/students.csv");
+        }
 }
