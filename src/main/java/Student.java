@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.Contract;
-
 import java.util.Optional;
 
 public record Student(int id, String name, String zipCode, int age ) {
